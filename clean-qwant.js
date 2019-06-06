@@ -3,7 +3,6 @@
 // @description This scipt will result in a more minimalistic version of the Qwant website.
 // @include http*://*.qwant.*
 // @version  1
-// @grant    none
 // @run-at document-start
 
 // ==/UserScript==
