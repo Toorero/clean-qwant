@@ -9,11 +9,11 @@
 // ==/UserScript==
 
 //create a new style node
-var style = document.createElement('style');
-style.type = 'text/css';
+var style = document.createElement('link');
+style.rel = 'stylesheet';
 
 //sets style content
-style.innerHTML = '.main-background-color, .wrapper, footer {background-color: #181a1b !important} .home__snippet__extension {display: none} .verticals__container {display: none !important} .header_content.header_content--classic :not(.header__item--appmenu) {display: none} .header__item--appmenu * { display: block !important} .header__item--appmenu {border-left: none} footer {display: none}';
+style.href = 'https://raw.githubusercontent.com/Toorero/clean-qwant/master/style_change.css';
 
 //append style to document
 document.getElementsByTagName('head')[0].appendChild(style);
