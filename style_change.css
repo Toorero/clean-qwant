@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: #181a1b !important
+}
+
+/*disables QOZ, footer, news section, music search, maps search, shopping search*/
+.home__snippet__extension, .verticals__container, .header_content.header_content--classic :not(.header__item--appmenu), footer, .all_content, .sidebar__item.sidebar__item--music, .sidebar__item.sidebar__item--shopping, .sidebar__item.sidebar__item--maps, {
+    display: none !important;
+}
+.header__item--appmenu * {
+    display: block !important;
+}
+.header__item--appmenu {
+    border-left: none
+}
