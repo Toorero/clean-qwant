@@ -2,7 +2,7 @@
 // @name     Clean Qwant
 // @description This scipt will result in a more minimalistic version of the Qwant website.
 // @include http*://*.qwant.*
-// @version  1.1
+// @version  2.0
 // @run-at document-start
 
 // @namespace https://greasyfork.org/users/213191
