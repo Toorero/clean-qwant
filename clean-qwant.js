@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     Clean Qwant
-// @description This scipt will result in a more minimalistic version of the Qwant website.
+// @description This scipt will result in a more minimalistic version of the Qwant website. If you don't want to use the dark theme of the website you should remove the background-color css overwrite.
 // @include http*://*.qwant.*
 // @version  2.1.1
 // @run-at document-start
